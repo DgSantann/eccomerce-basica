@@ -1,0 +1,35 @@
+@use '../../views/sass/variables' as *; 
+
+.search{
+    display: flex;
+    justify-content:space-around;
+    padding: 75px;
+    margin-top: 50px;
+   
+    
+    
+    
+   
+    &__input-container{
+        position: relative;
+    }
+
+
+    &__search-logo{
+        position: absolute;
+        left: 10px;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 18px;
+        color: gray;
+    }
+
+    input{
+        padding-left: 45px;
+        height: 48px;
+        width: 1296px;
+        border-radius: 10px;
+        border: 1px solid $border-input-color;
+       
+    }
+}
